@@ -17,7 +17,7 @@ body {
 }
 
 .header,
-.more_info {
+.header-info {
   font-family: fantasy, cursive;
 }
 
@@ -29,7 +29,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
