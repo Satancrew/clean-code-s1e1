@@ -19,7 +19,7 @@ var createNewTaskElement = function (taskString) {
 
   // input (checkbox)
   var checkBox = document.createElement("input"); // checkbox
-  checkBox.className = "task-item__checkbox";
+  checkBox.className = "checkbox";
   // label
   var label = document.createElement("label"); // label
   // input (text)
@@ -64,7 +64,7 @@ var addTask=function(){
   // Create a new list item with the text from the #new-task:
   if (!taskInput.value) return;
   var listItem=createNewTaskElement(taskInput.value);
-  listItem.className = "task-item";
+  listItem.className = "li";
   // Append listItem to incompleteTaskHolder
   incompleteTaskHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskCompleted);
