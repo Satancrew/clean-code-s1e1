@@ -50,7 +50,7 @@
   padding: 0px;
 }
 
-li, 
+.li, 
 .title {
   list-style: none;
 }
@@ -156,7 +156,7 @@ input,
 
 /* Completed */
 
-ul#completed-tasks .task {
+ul#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
